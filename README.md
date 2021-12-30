@@ -44,8 +44,9 @@ E 150 250 400 0 // 線段 A(150, 250); B(400,   0)
 Point: 儲存點座標(x,y)及處理相關運算。  
 Edge: 儲存線段(兩個點座標)及處理相關運算。  
 Vector: 處理向量相關運算，如：內積、外積、順時針或逆時針旋轉。
-Triangle: 處理三角形相關運算，如：三點外心、三角形面積(判斷是否共線、共點)。
-ConvexHull: 儲存Voronoi Diagram之ConvexHull(點的清單, 最上面的分割線, 最下面的分割線)及相關運算。
+Triangle: 處理三角形相關運算，如：三點外心、三角形面積(判斷是否共線、共點)。  
+ConvexHull: 儲存Voronoi Diagram之ConvexHull及相關運算。  
+Voronoi:儲存上述所有data。  
 
 ## 結論與心得
 輸入點在7以上，可能會有多餘的線段未被削去，常出現在鈍角三角形的convex hull上長邊的中垂線。
