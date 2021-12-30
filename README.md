@@ -35,10 +35,20 @@ E 150 0 150 250 // 線段 A(150,   0); B(150, 250)
 E 150 250 400 0 // 線段 A(150, 250); B(400,   0)
 
 ```
-### - 測試
+## 測試
 可用滑鼠直接點擊，或以輸入test file，以獲得測試資料。  
 並以Step按鈕，檢視Voronoi Diagram是否正確，以進行軟體測試。  
 測試資料:https://par.cse.nsysu.edu.tw/~cbyang/course/algo/vd_testdata_pure.in
+
+## 步驟
+![](https://raw.githubusercontent.com/lsps9150125/Vonoroi/main/step1.JPG)
+![](https://raw.githubusercontent.com/lsps9150125/Vonoroi/main/step2.JPG)
+![](https://raw.githubusercontent.com/lsps9150125/Vonoroi/main/step3.JPG)
+![](https://raw.githubusercontent.com/lsps9150125/Vonoroi/main/step4.JPG)
+![](https://raw.githubusercontent.com/lsps9150125/Vonoroi/main/step5.JPG)
+![](https://raw.githubusercontent.com/lsps9150125/Vonoroi/main/step6.JPG)
+![](https://raw.githubusercontent.com/lsps9150125/Vonoroi/main/step7.JPG)
+![](https://raw.githubusercontent.com/lsps9150125/Vonoroi/main/run.JPG)
 
 ## 資料結構
 Point: 儲存點座標(x,y)及處理相關運算。  
